@@ -1,0 +1,42 @@
+.profile{
+    text-align: center;
+}
+
+.loading_style{
+    text-align: center;
+}
+.loading_style img{
+    width: 100px;
+}
+
+.pdf_widht_height{
+    width: 700px;
+    height: 500px;
+}
+
+@media (max-width:800px){
+    .pdf_widht_height{
+        width: 500px;
+        height: 500px;
+     
+    }
+}
+@media (max-width:500px){
+    .pdf_widht_height{
+        width: 400px;
+        height: 500px;
+       
+    }
+}
+@media (max-width:400px){
+    .pdf_widht_height{
+        width: 300px;
+        height: 500px;
+        
+    }
+}
+
+
+.table{
+    border: 2px solid black;
+}
