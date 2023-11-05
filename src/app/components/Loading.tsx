@@ -3,7 +3,7 @@ import Image from 'next/image';
 export default function Loading(){
     return (
         <div className={style.loading_style}>
-             <Image src="/loading-white.gif" alt="" />
+             <Image src="/loading-white.gif" alt="" width={100} height={100} />
         </div>
     )
 }

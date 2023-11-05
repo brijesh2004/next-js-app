@@ -63,7 +63,7 @@ export default function Profile() {
       {
         paperdata.map((elem: any, index: number) => {
           return (
-            <div>
+            <div key={index}>
              <h2 className={profileStyle.table}>title {elem.title}   <span> <a href={elem.paperlink} download={`paper_${index}.pdf`}> Download</a></span></h2>
             </div>
           )
@@ -78,7 +78,7 @@ export default function Profile() {
       {
         notesdata.map((elem: any, index: number) => {
           return (
-            <div>
+            <div key={index}>
              <h2 className={profileStyle.table}>title {elem.title}   <span> <a href={elem.notelink} download={`${elem.title}.pdf`}> Download</a></span></h2>
             </div>
           )
