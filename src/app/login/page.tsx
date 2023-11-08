@@ -25,6 +25,7 @@ export default function Login(){
         catch(error:any){
             console.log("Login failed" , error.message);
             setLogin("Login");
+            alert("email or password are not matched");
         }
     }
 
