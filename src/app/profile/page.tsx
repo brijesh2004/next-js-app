@@ -49,7 +49,7 @@ export default function Profile() {
 
   return (
     <div className={profileStyle.profile}>
-      <button onClick={():any=>{
+      <button className={profileStyle.btn} onClick={():any=>{
         router.push("/")
       }}>
         Back

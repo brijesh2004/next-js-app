@@ -58,7 +58,7 @@ export default function Login(){
             value={user.password}
             onChange={(e)=>setUser({...user , password:e.target.value})}
             placeholder="enter password" required/> <br /><br />
-            <button onClick={onLogin}>{login}</button> <br /><br />
+            <button className={loginstyle.btn} onClick={onLogin}>{login}</button> <br /><br />
             Create New account <Link href="/signup">Create account</Link>
         </div>
 

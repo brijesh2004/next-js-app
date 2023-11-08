@@ -26,3 +26,10 @@
         width: 300px;
     }
 }
+
+.btn{
+    background: rgb(0, 255, 0);
+    border: none;
+    box-shadow: 5px 5px 5px green;
+    border-radius: 20px;
+}

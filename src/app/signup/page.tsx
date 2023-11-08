@@ -75,8 +75,8 @@ export default function Signup(){
               value={user.cpassword}
               onChange={(e)=> setUser({...user , cpassword:e.target.value})}
             placeholder="confirm password" required/> <br /><br />
-            <button onClick={SignupUser}>{signup}</button> <br /><br />
-            Already have account <Link href="/login">Login</Link><br />
+            <button className={loginstyle.btn} onClick={SignupUser}>{signup}</button> <br /><br />
+            Already have an account <Link href="/login">Login</Link><br />
         </div>
         </div>
     )

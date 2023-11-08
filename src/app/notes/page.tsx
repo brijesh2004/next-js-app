@@ -69,7 +69,7 @@ export default function Notes() {
 
   return (
     <div>
-      <button onClick={():any=>{
+      <button className={profileStyle.btn} onClick={():any=>{
         router.push("/")
       }}>
         Back
@@ -87,7 +87,7 @@ export default function Notes() {
           name="paper"
           onChange={HandleNotes}
         /><br /><br />
-        <button onClick={uploadNotes}>{upload}</button>
+        <button className={loginstyle.btn} onClick={uploadNotes}>{upload}</button>
       </div>
 
 

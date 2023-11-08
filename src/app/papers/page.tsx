@@ -76,7 +76,7 @@ export default function Papers(){
     },[]);
     return(
         <div>
-          <button onClick={():any=>{
+          <button className={profileStyle.btn} onClick={():any=>{
         router.push("/")
       }}>
         Back
@@ -94,7 +94,7 @@ export default function Papers(){
                  name="paper"
                  onChange={handlePapers}
                  /><br /><br />
-                <button onClick={uploadPaper}>{upload}</button> 
+                <button className={loginstyle.btn} onClick={uploadPaper}>{upload}</button> 
              </div>
 
 

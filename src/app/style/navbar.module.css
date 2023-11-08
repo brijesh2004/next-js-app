@@ -10,6 +10,14 @@
    text-align: center;
    align-items: center;
    margin-top: 300px;
+   box-shadow: 0 0px 40px rgb(0, 255, 0);
+   border-radius: 20px;
+   border: 1px solid black;
+   box-sizing: content-box;
+   background-color: rgb(185, 239, 239);
+   margin-left: 20%;
+   margin-right: 20%;
+
     /* height: 70px; */
 }
 .nav_btn{
@@ -27,7 +35,7 @@
    font-size: 24px;
 }
 
-.truenavbar{
+/* .truenavbar{
     translate: -100%;
     background: green;
     margin-left: -10px;
@@ -35,21 +43,10 @@
     transition: 1s;
     margin-right: -10px;
 
-}
-/* @media (max-width:800px) {
-    .navbar_ul {
-        flex-direction: column;
-        text-align: center;
-    }
-    .navbar{
-        height: 400px;
-    }
-    .nav_btn{
-        display: block;
-    }
 } */
 
 .nav_link{
     text-decoration: none;
     color: black;
 }
+
